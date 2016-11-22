@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1479726561 source:e:\asistensi\daa\binarytree\main.cpp
+	<iostream>
+	<malloc.h>
+	<stdio.h>
+
