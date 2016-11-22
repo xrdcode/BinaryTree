@@ -72,11 +72,8 @@ int main()
     AddNode(&kelapa, buah = 'A');
     AddNode(&kelapa->left, buah = 'B');
         AddNode(&kelapa->left->left, buah = 'D');
-            //AddNode(&kelapa->left->left->left, 'H');
-            //AddNode(&kelapa->left->left->right, 'I');
+            AddNode(&kelapa->left->left->right, 'I');
         AddNode(&kelapa->left->right, buah = 'E');
-            //AddNode(&kelapa->left->right->left, 'J');
-            //AddNode(&kelapa->left->right->right, 'K');
     AddNode(&kelapa->right, 'C');
         AddNode(&kelapa->right->left, 'F');
         AddNode(&kelapa->right->right, buah = 'G');
